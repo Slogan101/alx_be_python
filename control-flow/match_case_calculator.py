@@ -1,21 +1,21 @@
-first_num = int(input("Enter the first number:"))
-sec_num = int(input("Enter the second number:"))
+num1 = int(input("Enter the first number:"))
+num2 = int(input("Enter the second number:"))
 operation = input("Choose the operation (+, -, *, /):")
 
 
 
 if operation == "+":
-    result = first_num + sec_num
+    result = num1 + num2
     print(f"The result is {result}.")
 elif operation == "-":
-    result = first_num - sec_num
+    result = num1 - num2
     print(f"The result is {result}.")
 elif operation == "*":
-    result = first_num * sec_num
+    result = num1 * num2
     print(f"The result is {result}.")
 elif operation == "/":
-    if sec_num == 0 or first_num == 0:
+    if num2 == 0 or num1 == 0:
         print("Cannot divide by zero.")
     else:
-        result = first_num / sec_num
+        result = num1 / num2
         print(f"The result is {result}.")
