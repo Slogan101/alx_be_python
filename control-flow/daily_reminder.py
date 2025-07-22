@@ -4,7 +4,7 @@ time = input("Is it time-bound? (yes/no):")
 
 if priority == "high":
     if time == "yes":
-        print(f"Reminder: {task} is a {priority} priority task that requires immediate attention today!")
+        print(f"Reminder: {task}  is a high priority task that requires immediate attention today!")
 elif priority == "high":
     if time == "no":
         print(f"Reminder: {task} is a {priority} priority task that requires your attention!")
