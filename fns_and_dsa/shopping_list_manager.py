@@ -23,11 +23,11 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            item = str(input("Please enter the item name: "))
+            item = input("Please enter the item name: ")
             print(shopping_list.append(item))
             print(f"{item} has been added!")
         elif choice == '2':
-            item = str(input("Please enter the item name: "))
+            item = input("Please enter the item name: ")
             if item not in shopping_list:
                 print(f"The item '{item}' is not in your shopping list!")
             else:
