@@ -16,3 +16,5 @@ def calculate_future_date(date_format="%Y-%m-%d"):
     future_date = current_date + timedelta(days=future_date)
     print(f"Future date: {future_date.strftime(date_format)}")
 
+
+
