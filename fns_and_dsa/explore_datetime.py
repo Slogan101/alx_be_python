@@ -18,3 +18,5 @@ def calculate_future_date(date_format="%Y-%m-%d"):
 
 
 
+display_current_datetime()
+calculate_future_date()
