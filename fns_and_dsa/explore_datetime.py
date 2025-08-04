@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 
 
-def display_current_datetime(date_format="%Y-%m-%d %H:%M:%S"):
+def display_current_datetime(date_format="%Y-%m-%d"):
     current_date = datetime.now()
     print(current_date.strftime(date_format))
 
