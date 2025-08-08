@@ -15,6 +15,7 @@ class BankAccount:
     def withdraw(self, amount):
         if amount < self.account_balance:
             self.account_balance -= amount
+            print(self.account_balance)
             return True
         else:
             return False
