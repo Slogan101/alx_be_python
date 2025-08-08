@@ -21,8 +21,7 @@ class BankAccount:
 
     
     def display_balance(self):
-        current_balance = self.account_balance
-        return current_balance
+        return self.account_balance
   
 
 
